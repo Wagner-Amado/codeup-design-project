@@ -1,43 +1,100 @@
-
-
-@media screen and (max-width: 575px){
-    body{
+@media screen and (max-width: 575px) {
+    body {
         /*background-color: #f0f0f1;*/
         background-color: cornflowerblue;
     }
-    /*.jumbotron{*/
-    /*    display: block;*/
-    /*    justify-content: center;*/
-    /*}*/
+
+    .navbar {
+        justify-content: center;
+    }
+
     img {
-        width: 400px;
-        height: 300px;
+        width: 105px;
+        height: 105px;
     }
 
     h1 {
         font-size: 84px;
         font-weight: lighter;
     }
+
     #visual-web-header {
 
         font-weight: bolder;
     }
+
+    .block{
+        text-align: center;
+        vertical-align: middle;
+
+
+    }
+
+    #circle1 {
+        height: 200px;
+        width: 200px;
+        background-color: #E6563B;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+    }
+
+    #circle2 {
+        height: 200px;
+        width: 200px;
+        background-color: #dea03d;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+    }
+
+    #circle3 {
+        height: 200px;
+        width: 200px;
+        background-color: #7CB06C;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+    }
+
+    #circle4 {
+        height: 200px;
+        width: 200px;
+        background-color: #00ABA9;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+    }
+    .img-fluid{
+        border: 10px solid;
+        color: lightgrey;
+        height: auto;
+        width: 100%;
+    }
 }
 
-@media screen and (min-width: 576px) and (max-width: 767px){
-        body{
-            background-color: magenta;
-        }
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    body {
+        background-color: magenta;
+    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px){
-    body{
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
         background-color: seagreen;
     }
 }
 
-@media screen and (min-width: 992px){
-    body{
+@media screen and (min-width: 992px) {
+    body {
         background-color: gold;
     }
 }
