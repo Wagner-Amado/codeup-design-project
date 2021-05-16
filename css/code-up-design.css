@@ -9,9 +9,9 @@
     /*    display: block;*/
     /*    justify-content: center;*/
     /*}*/
-    img{
-        display: block;
-        justify-content: center;
+    img {
+        width: 400px;
+        height: 300px;
     }
 }
 
