@@ -1,0 +1,43 @@
+
+
+@media screen and (max-width: 575px){
+    body{
+        /*background-color: #f0f0f1;*/
+        background-color: cornflowerblue;
+    }
+    /*.jumbotron{*/
+    /*    display: block;*/
+    /*    justify-content: center;*/
+    /*}*/
+    img {
+        width: 400px;
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 84px;
+        font-weight: lighter;
+    }
+    #visual-web-header {
+
+        font-weight: bolder;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+        body{
+            background-color: magenta;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    body{
+        background-color: seagreen;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-color: gold;
+    }
+}
