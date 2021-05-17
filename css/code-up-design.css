@@ -1,7 +1,18 @@
 @media screen and (max-width: 575px) {
 
-    *{
-        box-sizing: border-box;
+    /** {*/
+    /*    box-sizing: border-box;*/
+    /*}*/
+
+    img.img {
+        height: 250px;
+        width: 250px;
+    }
+
+    nav.navbar {
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
     }
 
     body {
@@ -35,29 +46,41 @@
         font-weight: bolder;
     }
 
-    .block{
+    .block {
         text-align: center;
         vertical-align: middle;
     }
 
+    div.circles {
+        width: 85%;
+        height: auto;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .col-6{
+        margin: 1px;
+    }
+
+
     #circle1 {
-        /*height: 105px;*/
-        /*width: 105px;*/
+        height: 250px;
+        width: 250px;
         background-color: #E6563B;
-        border-radius: 0%;
+        border-radius: 50%;
         font-size: xx-large;
         font-weight: bolder;
         border: 10px solid #f0f0f0;
         color: white;
-        text-align: center;
-        vertical-align: center;
-        padding: 60px;
-
+        /*text-align: center;*/
+        /*vertical-align: center;*/
+        padding: 90px;
     }
 
     #circle2 {
-        /*height: 200px;*/
-        width: 105px;
+        height: 250px;
+        width: 250px;
         background-color: #dea03d;
         border-radius: 50%;
         font-size: xx-large;
@@ -70,22 +93,20 @@
     }
 
     #circle3 {
-        /*height: 200px;*/
-        width: 200px;
+        height: 250px;
+        width: 250px;
         background-color: #7CB06C;
         border-radius: 50%;
         font-size: xx-large;
         font-weight: bolder;
         border: 10px solid #f0f0f0;
         color: white;
-        text-align: center;
-        vertical-align: center;
         padding: 60px;
     }
 
     #circle4 {
-        /*height: 200px;*/
-        width: 200px;
+        height: 250px;
+        width: 250px;
         background-color: #00ABA9;
         border-radius: 50%;
         font-size: xx-large;
@@ -96,7 +117,8 @@
         vertical-align: center;
         padding: 60px;
     }
-    .img-fluid{
+
+    .img-fluid {
         border: 10px solid;
         color: lightgrey;
         height: auto;
@@ -105,7 +127,6 @@
 
     div.row {
         align-content: center;
-
     }
 
     .dot-1 {
@@ -165,9 +186,15 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
+
     body {
         background-color: magenta;
     }
+
+
+
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
