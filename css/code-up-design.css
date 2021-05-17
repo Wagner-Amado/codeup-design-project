@@ -1,8 +1,6 @@
 @media screen and (max-width: 575px) {
 
-    /** {*/
-    /*    box-sizing: border-box;*/
-    /*}*/
+
     img.img {
         height: 250px;
         width: 250px;
@@ -14,6 +12,7 @@
         margin-top: 100px;
         position: relative;
         height: 120px;
+        margin-bottom: 40px;
     }
 
     body {
@@ -195,6 +194,50 @@ color: #00ABA9
         background-color: magenta;
     }
 
+    img.img {
+        height: 105px;
+        width: 105px;
+        position: absolute;
+    }
+
+    nav.navbar {
+
+        margin-top: 150px;
+        position: relative;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .navbar {
+        justify-content: center;
+    }
+
+    #list-services{
+        padding: 0;
+        position: absolute;
+        top: 10.5em;
+        left: 2em;
+    }
+
+    #list-work{
+        padding: 0;
+        position: absolute;
+        top: 10.5em;
+        left: 8.5em;
+    }
+
+    #list-blog {
+        padding: 0;
+        position: absolute;
+        top: 10.5em;
+        right: 8.5em;
+    }
+
+    #list-contact {
+        padding: 0;
+        position: absolute;
+        top: 10.5em;
+        right: 2em;
+    }
 
 }
 
