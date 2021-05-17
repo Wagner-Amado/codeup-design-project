@@ -117,8 +117,8 @@
         top: 10px;
     }
 
-    header{
-color: #00ABA9
+    header {
+        color: #00ABA9
     }
 
     .img-fluid {
@@ -183,9 +183,61 @@ color: #00ABA9
         margin-right: 200px;
     }
 
+    #circle1 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #E6563B;
+        border-radius: 100%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        /*padding: 90px;*/
+    }
+
+    #circle2 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #dea03d;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        text-align: center;
+        vertical-align: center;
+        padding: 60px;
+    }
+
+    #circle3 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #7CB06C;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        padding: 60px;
+        top: 10px;
+        vertical-align: center;
+
+    }
+
+    #circle4 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #00ABA9;
+        border-radius: 100%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        /*text-align: center;*/
+        top: 10px;
+    }
 
 }
-
 
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -207,18 +259,19 @@ color: #00ABA9
         height: 60px;
         margin-bottom: 20px;
     }
+
     .navbar {
         justify-content: center;
     }
 
-    #list-services{
+    #list-services {
         padding: 0;
         position: absolute;
         top: 10.5em;
         left: 2em;
     }
 
-    #list-work{
+    #list-work {
         padding: 0;
         position: absolute;
         top: 10.5em;
@@ -239,7 +292,19 @@ color: #00ABA9
         right: 2em;
     }
 
+    h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     body {
