@@ -40,6 +40,12 @@
         font-weight: lighter;
     }
 
+    h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+
     #visual-web-header {
         font-weight: bolder;
     }
@@ -183,6 +189,81 @@
         margin-right: 200px;
     }
 
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    body {
+        background-color: magenta;
+    }
+
+    img.img {
+        height: 105px;
+        width: 105px;
+        position: absolute;
+    }
+
+    .img-fluid {
+        border: 10px solid;
+        color: lightgrey;
+        height: auto;
+        width: 30%;
+    }
+
+    nav.navbar {
+
+        margin-top: 150px;
+        position: relative;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    #list-services {
+        padding: 0;
+        position: absolute;
+        top: 10.5em;
+        left: 2em;
+    }
+
+    #list-work {
+        padding: 0;
+        position: absolute;
+        top: 10.5em;
+        left: 8.5em;
+    }
+
+    #list-blog {
+        padding: 0;
+        position: absolute;
+        top: 10.5em;
+        right: 8.5em;
+    }
+
+    #list-contact {
+        padding: 0;
+        position: absolute;
+        top: 10.5em;
+        right: 2em;
+    }
+
+    h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 48px;
+        margin-bottom: 1em;
+    }
+
+    h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        padding-bottom: 1em;
+    }
+
     #circle1 {
         /*height: 250px;*/
         /*width: 250px;*/
@@ -237,14 +318,66 @@
         top: 10px;
     }
 
+
+    .dot-1 {
+        height: 18px;
+        width: 18px;
+        background-color: #E6563B;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+
+        position: relative;
+        left: 3em;
+
+    }
+
+    .dot-2 {
+        height: 18px;
+        width: 18px;
+        background-color: #dea03d;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+
+    }
+
+    .dot-3 {
+        height: 18px;
+        width: 18px;
+        background-color: #7CB06C;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+    }
+
+    .dot-4 {
+        height: 18px;
+        width: 18px;
+        background-color: #00ABA9;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+        margin-right: 200px;
+    }
+
+
 }
 
 
-@media screen and (min-width: 576px) and (max-width: 767px) {
-
-    body {
-        background-color: magenta;
-    }
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
     img.img {
         height: 105px;
@@ -254,67 +387,345 @@
 
     nav.navbar {
 
-        margin-top: 150px;
+        margin-top: 50px;
         position: relative;
         height: 60px;
         margin-bottom: 20px;
     }
 
-    .navbar {
-        justify-content: center;
-    }
-
-    #list-services {
-        padding: 0;
+    #list-services{
         position: absolute;
-        top: 10.5em;
-        left: 2em;
+        right: 25%;
+        top: 6%;
     }
 
     #list-work {
-        padding: 0;
         position: absolute;
-        top: 10.5em;
-        left: 8.5em;
+        right: 15%;
+        top: 6%;
     }
 
     #list-blog {
-        padding: 0;
         position: absolute;
-        top: 10.5em;
-        right: 8.5em;
+        right: 5%;
+        top: 6%;
     }
 
     #list-contact {
-        padding: 0;
         position: absolute;
-        top: 10.5em;
-        right: 2em;
+        right: -5%;
+        top: 6%;
+    }
+
+
+    body {
+        background-color: seagreen;
     }
 
     h2 {
         font-family: 'Anton', sans-serif;
-        font-size: 48px;
+        font-size: 40px;
         margin-bottom: 50px;
     }
 
     h1 {
-        margin-bottom: 50px;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        position: relative;
+        top: -130%;
+        right: 20%;
     }
 
-
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    body {
-        background-color: seagreen;
+    .img-fluid {
+        border: 10px solid;
+        color: lightgrey;
+        height: auto;
+        width: 30%;
     }
+
+    #circle1 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #E6563B;
+        border-radius: 100%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        /*padding: 90px;*/
+    }
+
+    #circle2 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #dea03d;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        text-align: center;
+        vertical-align: center;
+        padding: 60px;
+    }
+
+    #circle3 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #7CB06C;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        padding: 60px;
+        top: 10px;
+        vertical-align: center;
+
+    }
+
+    #circle4 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #00ABA9;
+        border-radius: 100%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        /*text-align: center;*/
+        top: 10px;
+    }
+
+    .dot-1 {
+        height: 18px;
+        width: 18px;
+        background-color: #E6563B;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+
+    }
+
+    .dot-2 {
+        height: 18px;
+        width: 18px;
+        background-color: #dea03d;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+
+    }
+
+    .dot-3 {
+        height: 18px;
+        width: 18px;
+        background-color: #7CB06C;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+    }
+
+    .dot-4 {
+        height: 18px;
+        width: 18px;
+        background-color: #00ABA9;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+        margin-right: 200px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
+
     body {
         background-color: gold;
     }
+
+    #list-services{
+        position: absolute;
+        right: 25%;
+        top: 6%;
+    }
+
+    #list-work {
+        position: absolute;
+        right: 15%;
+        top: 6%;
+    }
+
+    #list-blog {
+        position: absolute;
+        right: 5%;
+        top: 6%;
+    }
+
+    #list-contact {
+        position: absolute;
+        right: -5%;
+        top: 6%;
+    }
+
+    h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        position: relative;
+        top: -130%;
+        right: 20%;
+    }
+
+    h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 64px;
+        margin-bottom: 50px;
+    }
+
+    h3{
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    img.img {
+        height: 105px;
+        width: 105px;
+        position: absolute;
+        left: 5%;
+    }
+
+    nav.navbar {
+
+        margin-top: 50px;
+        position: relative;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .img-fluid {
+        border: 10px solid;
+        color: lightgrey;
+        height: auto;
+        width: 30%;
+    }
+
+    #circle1 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #E6563B;
+        border-radius: 100%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        /*padding: 90px;*/
+    }
+
+    #circle2 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #dea03d;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        text-align: center;
+        vertical-align: center;
+        padding: 60px;
+    }
+
+    #circle3 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #7CB06C;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        padding: 60px;
+        top: 10px;
+        vertical-align: center;
+
+    }
+
+    #circle4 {
+        /*height: 250px;*/
+        /*width: 250px;*/
+        background-color: #00ABA9;
+        border-radius: 100%;
+        font-size: xx-large;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+        /*text-align: center;*/
+        top: 10px;
+    }
+
+    .dot-1 {
+        height: 18px;
+        width: 18px;
+        background-color: #E6563B;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+
+    }
+
+    .dot-2 {
+        height: 18px;
+        width: 18px;
+        background-color: #dea03d;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+
+    }
+
+    .dot-3 {
+        height: 18px;
+        width: 18px;
+        background-color: #7CB06C;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+    }
+
+    .dot-4 {
+        height: 18px;
+        width: 18px;
+        background-color: #00ABA9;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: xx-small;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+        margin-right: 200px;
+    }
+
+
 }
 
