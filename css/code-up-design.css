@@ -1,5 +1,114 @@
-@media screen and (max-width: 575px) {
 
+
+#circle1 {
+    /*height: 250px;*/
+    /*width: 250px;*/
+    background-color: #E6563B;
+    border-radius: 100%;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 10px solid #f0f0f0;
+    color: white;
+    /*padding: 90px;*/
+}
+
+#circle2 {
+    /*height: 250px;*/
+    /*width: 250px;*/
+    background-color: #dea03d;
+    border-radius: 50%;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 10px solid #f0f0f0;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    padding: 60px;
+}
+
+#circle3 {
+    /*height: 250px;*/
+    /*width: 250px;*/
+    background-color: #7CB06C;
+    border-radius: 50%;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 10px solid #f0f0f0;
+    color: white;
+    padding: 60px;
+    top: 10px;
+    vertical-align: center;
+
+}
+
+#circle4 {
+    /*height: 250px;*/
+    /*width: 250px;*/
+    background-color: #00ABA9;
+    border-radius: 100%;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 10px solid #f0f0f0;
+    color: white;
+    /*text-align: center;*/
+    top: 10px;
+}
+
+.dot-1 {
+    height: 18px;
+    width: 18px;
+    background-color: #E6563B;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: xx-small;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+
+}
+
+.dot-2 {
+    height: 18px;
+    width: 18px;
+    background-color: #dea03d;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: xx-small;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+
+}
+
+.dot-3 {
+    height: 18px;
+    width: 18px;
+    background-color: #7CB06C;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: xx-small;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+}
+
+.dot-4 {
+    height: 18px;
+    width: 18px;
+    background-color: #00ABA9;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: xx-small;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    margin-right: 200px;
+}
+
+
+
+
+@media screen and (max-width: 575px) {
 
     img.img {
         height: 250px;
@@ -68,61 +177,6 @@
         padding: 10px;
     }
 
-
-    #circle1 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #E6563B;
-        border-radius: 100%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        /*padding: 90px;*/
-    }
-
-    #circle2 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #dea03d;
-        border-radius: 50%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        text-align: center;
-        vertical-align: center;
-        padding: 60px;
-    }
-
-    #circle3 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #7CB06C;
-        border-radius: 50%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        padding: 60px;
-        top: 10px;
-        vertical-align: center;
-
-    }
-
-    #circle4 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #00ABA9;
-        border-radius: 100%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        /*text-align: center;*/
-        top: 10px;
-    }
-
     header {
         color: #00ABA9
     }
@@ -137,59 +191,6 @@
     div.row {
         align-content: center;
     }
-
-    .dot-1 {
-        height: 18px;
-        width: 18px;
-        background-color: #E6563B;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-
-    }
-
-    .dot-2 {
-        height: 18px;
-        width: 18px;
-        background-color: #dea03d;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-
-    }
-
-    .dot-3 {
-        height: 18px;
-        width: 18px;
-        background-color: #7CB06C;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-    }
-
-    .dot-4 {
-        height: 18px;
-        width: 18px;
-        background-color: #00ABA9;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-        margin-right: 200px;
-    }
-
-
 }
 
 
@@ -264,116 +265,6 @@
         padding-bottom: 1em;
     }
 
-    #circle1 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #E6563B;
-        border-radius: 100%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        /*padding: 90px;*/
-    }
-
-    #circle2 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #dea03d;
-        border-radius: 50%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        text-align: center;
-        vertical-align: center;
-        padding: 60px;
-    }
-
-    #circle3 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #7CB06C;
-        border-radius: 50%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        padding: 60px;
-        top: 10px;
-        vertical-align: center;
-
-    }
-
-    #circle4 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #00ABA9;
-        border-radius: 100%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        /*text-align: center;*/
-        top: 10px;
-    }
-
-
-    .dot-1 {
-        height: 18px;
-        width: 18px;
-        background-color: #E6563B;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-
-        position: relative;
-        left: 3em;
-
-    }
-
-    .dot-2 {
-        height: 18px;
-        width: 18px;
-        background-color: #dea03d;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-
-    }
-
-    .dot-3 {
-        height: 18px;
-        width: 18px;
-        background-color: #7CB06C;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-    }
-
-    .dot-4 {
-        height: 18px;
-        width: 18px;
-        background-color: #00ABA9;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-        margin-right: 200px;
-    }
-
-
 }
 
 
@@ -441,111 +332,6 @@
         color: lightgrey;
         height: auto;
         width: 30%;
-    }
-
-    #circle1 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #E6563B;
-        border-radius: 100%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        /*padding: 90px;*/
-    }
-
-    #circle2 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #dea03d;
-        border-radius: 50%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        text-align: center;
-        vertical-align: center;
-        padding: 60px;
-    }
-
-    #circle3 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #7CB06C;
-        border-radius: 50%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        padding: 60px;
-        top: 10px;
-        vertical-align: center;
-
-    }
-
-    #circle4 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #00ABA9;
-        border-radius: 100%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        /*text-align: center;*/
-        top: 10px;
-    }
-
-    .dot-1 {
-        height: 18px;
-        width: 18px;
-        background-color: #E6563B;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-
-    }
-
-    .dot-2 {
-        height: 18px;
-        width: 18px;
-        background-color: #dea03d;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-
-    }
-
-    .dot-3 {
-        height: 18px;
-        width: 18px;
-        background-color: #7CB06C;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-    }
-
-    .dot-4 {
-        height: 18px;
-        width: 18px;
-        background-color: #00ABA9;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-        margin-right: 200px;
     }
 
 }
@@ -620,112 +406,5 @@
         height: auto;
         width: 30%;
     }
-
-    #circle1 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #E6563B;
-        border-radius: 100%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        /*padding: 90px;*/
-    }
-
-    #circle2 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #dea03d;
-        border-radius: 50%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        text-align: center;
-        vertical-align: center;
-        padding: 60px;
-    }
-
-    #circle3 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #7CB06C;
-        border-radius: 50%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        padding: 60px;
-        top: 10px;
-        vertical-align: center;
-
-    }
-
-    #circle4 {
-        /*height: 250px;*/
-        /*width: 250px;*/
-        background-color: #00ABA9;
-        border-radius: 100%;
-        font-size: xx-large;
-        font-weight: bolder;
-        border: 10px solid #f0f0f0;
-        color: white;
-        /*text-align: center;*/
-        top: 10px;
-    }
-
-    .dot-1 {
-        height: 18px;
-        width: 18px;
-        background-color: #E6563B;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-
-    }
-
-    .dot-2 {
-        height: 18px;
-        width: 18px;
-        background-color: #dea03d;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-
-    }
-
-    .dot-3 {
-        height: 18px;
-        width: 18px;
-        background-color: #7CB06C;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-    }
-
-    .dot-4 {
-        height: 18px;
-        width: 18px;
-        background-color: #00ABA9;
-        border-radius: 100%;
-        display: inline-block;
-        font-size: xx-small;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-        margin-right: 200px;
-    }
-
-
 }
 
