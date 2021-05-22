@@ -20,6 +20,7 @@
     margin: auto;
 }
 
+
 #circles-container {
     display: flex;
     justify-content: center;
@@ -33,21 +34,25 @@
 }
 
 .bckgrd-1 {
-        background-color: #E6563B;
+    background-color: #E6563B;
 }
 
 .bckgrd-2 {
-        background-color: #dea03d;
+    background-color: #dea03d;
 }
 
 .bckgrd-3 {
-        background-color: #7CB06C;
+    background-color: #7CB06C;
 }
 
 .bckgrd-4 {
-        background-color: #00ABA9;
+    background-color: #00ABA9;
 }
 
+.container {
+    justify-content: center;
+    flex-direction: row;
+}
 
 .dot-1 {
     height: 18px;
@@ -72,7 +77,6 @@
     text-align: center;
     vertical-align: center;
     font-weight: bold;
-
 }
 
 .dot-3 {
@@ -101,11 +105,7 @@
 }
 
 
-
-
 @media screen and (max-width: 575px) {
-
-
 
     img.img {
         height: 250px;
@@ -178,13 +178,12 @@
         color: #00ABA9
     }
 
-    .img-fluid {
-        border: 10px solid;
-        color: lightgrey;
-        height: auto;
-        width: 100%;
-    }
-
+    /*.img-fluid {*/
+    /*    border: 10px solid;*/
+    /*    color: lightgrey;*/
+    /*    height: auto;*/
+    /*    width: 100%;*/
+    /*}*/
     div.row {
         align-content: center;
     }
@@ -291,7 +290,7 @@
         margin-bottom: 20px;
     }
 
-    #list-services{
+    #list-services {
         position: absolute;
         right: 25%;
         top: 6%;
@@ -334,12 +333,12 @@
         right: 20%;
     }
 
-    .img-fluid {
-        border: 10px solid;
-        color: lightgrey;
-        height: auto;
-        width: 30%;
-    }
+    /*.img-fluid {*/
+    /*    border: 10px solid;*/
+    /*    color: lightgrey;*/
+    /*    height: auto;*/
+    /*    width: 30%;*/
+    /*}*/
 
 }
 
@@ -351,12 +350,11 @@
     }
 
 
-
     body {
         background-color: gold;
     }
 
-    #list-services{
+    #list-services {
         position: absolute;
         right: 25%;
         top: 6%;
@@ -394,7 +392,7 @@
         margin-bottom: 50px;
     }
 
-    h3{
+    h3 {
         font-family: 'Anton', sans-serif;
         font-size: 40px;
         margin-bottom: 50px;
@@ -414,11 +412,12 @@
         height: 60px;
         margin-bottom: 20px;
     }
-    .img-fluid {
-        border: 10px solid;
-        color: lightgrey;
-        height: auto;
-        width: 30%;
-    }
+
+    /*.img-fluid {*/
+    /*    border: 10px solid;*/
+    /*    color: lightgrey;*/
+    /*    height: auto;*/
+    /*    width: 30%;*/
+    /*}*/
 }
 
