@@ -1,58 +1,92 @@
 
-
-#circle1 {
-    /*height: 250px;*/
-    /*width: 250px;*/
-    background-color: #E6563B;
-    border-radius: 100%;
-    font-size: xx-large;
-    font-weight: bolder;
-    border: 10px solid #f0f0f0;
-    color: white;
-    /*padding: 90px;*/
+.circles-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 1em;
+    grid-column-gap: 2em;
+    margin: 2.5em;
 }
 
-#circle2 {
-    /*height: 250px;*/
-    /*width: 250px;*/
-    background-color: #dea03d;
+.circle {
+    height: 105px;
+    width: 105px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     border-radius: 50%;
-    font-size: xx-large;
-    font-weight: bolder;
-    border: 10px solid #f0f0f0;
-    color: white;
-    text-align: center;
-    vertical-align: center;
-    padding: 60px;
 }
 
-#circle3 {
-    /*height: 250px;*/
-    /*width: 250px;*/
-    background-color: #7CB06C;
-    border-radius: 50%;
-    font-size: xx-large;
-    font-weight: bolder;
-    border: 10px solid #f0f0f0;
-    color: white;
-    padding: 60px;
-    top: 10px;
-    vertical-align: center;
-
+.bckgrd-1 {
+        background-color: #E6563B;
 }
 
-#circle4 {
-    /*height: 250px;*/
-    /*width: 250px;*/
-    background-color: #00ABA9;
-    border-radius: 100%;
-    font-size: xx-large;
-    font-weight: bolder;
-    border: 10px solid #f0f0f0;
-    color: white;
-    /*text-align: center;*/
-    top: 10px;
+.bckgrd-2 {
+        background-color: #dea03d;
 }
+
+.bckgrd-3 {
+        background-color: #7CB06C;
+}
+
+.bckgrd-4 {
+        background-color: #00ABA9;
+}
+
+/*#circle1 {*/
+
+/*    height: 105px;*/
+/*    width: 105px;*/
+/*    border-radius: 50%;*/
+/*    background-color: #E6563B;*/
+
+
+
+/*    border: 10px solid #f0f0f0;*/
+/*    color: white;*/
+/*}*/
+
+/*#circle2 {*/
+/*    height: 25px;*/
+/*    width: 25px;*/
+
+/*    border-radius: 50%;*/
+/*    font-size: xx-large;*/
+/*    font-weight: bolder;*/
+/*    border: 10px solid #f0f0f0;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    vertical-align: center;*/
+/*    padding: 60px;*/
+/*}*/
+
+/*#circle3 {*/
+/*    height: 25px;*/
+/*    width: 25px;*/
+
+/*    border-radius: 50%;*/
+/*    font-size: xx-large;*/
+/*    font-weight: bolder;*/
+/*    border: 10px solid #f0f0f0;*/
+/*    color: white;*/
+/*    padding: 60px;*/
+/*    top: 10px;*/
+/*    vertical-align: center;*/
+
+/*}*/
+
+/*#circle4 {*/
+/*    height: 25px;*/
+/*    width: 25px;*/
+
+/*    border-radius: 100%;*/
+/*    font-size: xx-large;*/
+/*    font-weight: bolder;*/
+/*    border: 10px solid #f0f0f0;*/
+/*    color: white;*/
+/*    !*text-align: center;*!*/
+/*    top: 10px;*/
+/*}*/
 
 .dot-1 {
     height: 18px;
