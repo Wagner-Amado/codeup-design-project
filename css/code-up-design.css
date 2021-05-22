@@ -105,6 +105,8 @@
 
 @media screen and (max-width: 575px) {
 
+
+
     img.img {
         height: 250px;
         width: 250px;
@@ -191,6 +193,11 @@
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
+    .circles-list {
+        display: flex;
+
+    }
+
     body {
         background-color: magenta;
     }
@@ -265,6 +272,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+    .circles-list {
+        display: flex;
+
+    }
+
     img.img {
         height: 105px;
         width: 105px;
@@ -332,6 +344,13 @@
 }
 
 @media screen and (min-width: 992px) {
+
+    .circles-list {
+        display: flex;
+
+    }
+
+
 
     body {
         background-color: gold;
