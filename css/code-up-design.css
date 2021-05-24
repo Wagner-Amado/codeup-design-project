@@ -1,4 +1,9 @@
 
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding-right: 0;
+}
 
 .navbar {
     position: relative;
@@ -7,8 +12,13 @@
 
 }
 
+
 .codeup-font {
-    font-size: 48px;
+    font-size: 64px;
+}
+
+#visual-web-header {
+    font-size: 64px;
 }
 
 .circles-list {
@@ -136,8 +146,9 @@ img.img {
 }
 
 .four-photos {
-    height: 250px !important;
-    width: 250px !important;
+    height: auto !important;
+    width: 215px !important;
+
 }
 
 h1, h2, h4 {
@@ -147,10 +158,8 @@ h1, h2, h4 {
 
 p {
     font-family: 'Abel', sans-serif;
+
 }
-
-
-
 
 @media screen and (max-width: 575px) {
 
@@ -167,6 +176,10 @@ p {
     h1 {
         font-size: 64px;
     }
+
+    .featured-size {
+        font-size: 8px;
+    }
 }
 
 
@@ -182,7 +195,7 @@ p {
     }
 
     .navbar {
-        justify-content: start;
+        justify-content: center;
     }
 
     body {
