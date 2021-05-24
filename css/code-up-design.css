@@ -1,17 +1,9 @@
 
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding-right: 0;
-}
-
 .navbar {
     position: relative;
     padding: 0;
     margin: 0;
-
 }
-
 
 .codeup-font {
     font-size: 64px;
@@ -41,7 +33,6 @@ body {
     align-content: center;
     margin: auto;
 }
-
 
 #circles-container {
     display: flex;
@@ -86,7 +77,6 @@ body {
     text-align: center;
     vertical-align: center;
     font-weight: bold;
-
 }
 
 .dot-2 {
@@ -147,18 +137,15 @@ img.img {
 
 .four-photos {
     height: auto !important;
-    width: 215px !important;
-
+    width: 240px !important;
 }
 
 h1, h2, h4 {
     font-family: 'Anton', sans-serif;
-
 }
 
 p {
     font-family: 'Abel', sans-serif;
-
 }
 
 @media screen and (max-width: 575px) {
@@ -178,10 +165,9 @@ p {
     }
 
     .featured-size {
-        font-size: 8px;
+        font-size: 9px;
     }
 }
-
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
@@ -202,6 +188,9 @@ p {
         background-color: magenta;
     }
 
+    .linebreak {
+        width: 70%;
+    }
 }
 
 
@@ -209,13 +198,15 @@ p {
 
     .circles-list {
         display: flex;
-
     }
 
     body {
         background-color: seagreen;
     }
 
+    .linebreak {
+        width: 95%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -228,5 +219,10 @@ p {
     body {
         background-color: gold;
     }
+
+    .linebreak {
+        width: 80%;
+    }
+
 }
 
