@@ -153,10 +153,16 @@ img {
     width: 105px;
 }
 
-.four-photos {
-    height: auto !important;
-    width: 240px !important;
+/*.four-photos {*/
+/*    height: auto !important;*/
+/*    width: 240px !important;*/
+/*}*/
+
+.imgBorder {
+    border-radius: 5px;
+    border: 10px solid #d0d0d0;
 }
+
 
 h1, h2, h3, h4 {
     font-family: 'Anton', sans-serif;
@@ -184,7 +190,7 @@ p {
         font-size: 64px;
     }
 
-    .featured-size {
+    .featured-project {
         font-size: 9px;
     }
 }
