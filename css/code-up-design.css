@@ -19,6 +19,10 @@ body {
     margin-top: 30px;
 }
 
+.nav-items {
+    width: 100%;
+}
+
 a {
     color: black;
 }
@@ -144,10 +148,9 @@ a {
     border: 10px solid #e6e6e6
 }
 
-img.img {
+img {
     height: 105px;
     width: 105px;
-    position: absolute;
 }
 
 .four-photos {
@@ -174,12 +177,8 @@ p {
     }
 
     .codeupDesign {
-        font-size: xx-large;
-        top: 19px;
+        font-size: xxx-large;
     }
-
-
-
 
     h1 {
         font-size: 64px;
@@ -195,6 +194,11 @@ p {
     .circles-list {
         display: flex;
 
+    }
+
+    .codeupDesign {
+        font-size: xx-large;
+        top: 19px;
     }
 
     .top {
