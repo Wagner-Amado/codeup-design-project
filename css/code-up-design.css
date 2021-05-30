@@ -1,16 +1,31 @@
 
-.navbar {
-    position: relative;
+body {
+    font-family: 'ANTON REGULAR', sans-serif;
     padding: 0;
     margin: 0;
 }
 
-.codeup-font {
-    font-size: 64px;
+.navbar {
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    height: 60px;
+    width: 100%;
+    background-color: #f0f0f0;
 }
 
-#visual-web-header {
-    font-size: 64px;
+.logo {
+    margin-top: 30px;
+}
+
+a {
+    color: black;
+}
+
+.visual-web-header {
+    font-size: 48px;
+    font-family: 'ANTON', sans-serif;
 }
 
 .circles-list {
@@ -46,19 +61,19 @@
     align-items: center;
 }
 
-.bckgrd-1 {
+.design-circle-1 {
     background-color: #E6563B;
 }
 
-.bckgrd-2 {
+.develop-circle-2 {
     background-color: #dea03d;
 }
 
-.bckgrd-3 {
+.support-circle-3 {
     background-color: #7CB06C;
 }
 
-.bckgrd-4 {
+.host-circle-4 {
     background-color: #00ABA9;
 }
 
@@ -140,12 +155,14 @@ img.img {
     width: 240px !important;
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4 {
     font-family: 'Anton', sans-serif;
 }
 
 p {
     font-family: 'Abel', sans-serif;
+    font-weight: 300;
+    font-size: 9px;
 }
 
 @media screen and (max-width: 575px) {
@@ -156,9 +173,13 @@ p {
         align-self: center;
     }
 
-    .navbar {
-        justify-content: center;
+    .codeupDesign {
+        font-size: xx-large;
+        top: 19px;
     }
+
+
+
 
     h1 {
         font-size: 64px;
@@ -174,6 +195,10 @@ p {
     .circles-list {
         display: flex;
 
+    }
+
+    .top {
+        top: 69px;
     }
 
     .featured-size {
